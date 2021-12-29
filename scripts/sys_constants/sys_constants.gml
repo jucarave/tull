@@ -1,1 +1,4 @@
 #macro EVENT_STEP 0
+
+#macro GRID_WIDTH 16
+#macro GRID_HEIGHT 24

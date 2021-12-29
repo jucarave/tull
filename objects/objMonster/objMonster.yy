@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sprCKnight",
-    "path": "sprites/sprCKnight/sprCKnight.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -23,18 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":10,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Entities",
-    "path": "folders/Objects/Entities.yy",
+    "name": "Monsters",
+    "path": "folders/Objects/Monsters.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objPlayer",
+  "name": "objMonster",
   "tags": [],
   "resourceType": "GMObject",
 }

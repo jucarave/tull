@@ -1,14 +1,21 @@
 {
   "resources": [
+    {"id":{"name":"objCatacombs","path":"objects/objCatacombs/objCatacombs.yy",},"order":1,},
+    {"id":{"name":"actor_move_to","path":"scripts/actor_move_to/actor_move_to.yy",},"order":1,},
     {"id":{"name":"objSystem","path":"objects/objSystem/objSystem.yy",},"order":0,},
     {"id":{"name":"sprCKnight","path":"sprites/sprCKnight/sprCKnight.yy",},"order":0,},
     {"id":{"name":"player_update_movement","path":"scripts/player_update_movement/player_update_movement.yy",},"order":0,},
     {"id":{"name":"objActor","path":"objects/objActor/objActor.yy",},"order":1,},
+    {"id":{"name":"sprMSkeleton","path":"sprites/sprMSkeleton/sprMSkeleton.yy",},"order":0,},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"order":0,},
+    {"id":{"name":"objMonster","path":"objects/objMonster/objMonster.yy",},"order":0,},
+    {"id":{"name":"objLevel","path":"objects/objLevel/objLevel.yy",},"order":0,},
     {"id":{"name":"sys_constants","path":"scripts/sys_constants/sys_constants.yy",},"order":0,},
     {"id":{"name":"objCurrentTurn","path":"objects/objCurrentTurn/objCurrentTurn.yy",},"order":1,},
+    {"id":{"name":"objSkeleton","path":"objects/objSkeleton/objSkeleton.yy",},"order":1,},
     {"id":{"name":"sys_add_to_instances_list","path":"scripts/sys_add_to_instances_list/sys_add_to_instances_list.yy",},"order":1,},
     {"id":{"name":"actor_end_turn","path":"scripts/actor_end_turn/actor_end_turn.yy",},"order":0,},
+    {"id":{"name":"sprLCFloor01","path":"sprites/sprLCFloor01/sprLCFloor01.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -49,6 +56,11 @@
     {"folderPath":"folders/Scripts/System.yy","order":2,"resourceVersion":"1.0","name":"System","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Entities.yy","order":3,"resourceVersion":"1.0","name":"Entities","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/Actors.yy","order":3,"resourceVersion":"1.0","name":"Actors","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Monsters.yy","order":2,"resourceVersion":"1.0","name":"Monsters","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Monsters.yy","order":4,"resourceVersion":"1.0","name":"Monsters","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Levels.yy","order":5,"resourceVersion":"1.0","name":"Levels","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Levels.yy","order":3,"resourceVersion":"1.0","name":"Levels","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Levels/Catacombs.yy","order":1,"resourceVersion":"1.0","name":"Catacombs","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

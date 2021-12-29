@@ -1,15 +1,12 @@
 {
-  "spriteId": {
-    "name": "sprCKnight",
-    "path": "sprites/sprCKnight/sprCKnight.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "objActor",
-    "path": "objects/objActor/objActor.yy",
+    "name": "objLevel",
+    "path": "objects/objLevel/objLevel.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -24,17 +21,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":10,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Entities",
-    "path": "folders/Objects/Entities.yy",
+    "name": "Levels",
+    "path": "folders/Objects/Levels.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objPlayer",
+  "name": "objCatacombs",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,13 +1,13 @@
 function player_update_movement() {
-	var hor = keyboard_check(ord("D")) - keyboard_check(ord("A"));
-	var ver = keyboard_check(ord("S")) - keyboard_check(ord("W"));
+	var hor = keyboard_check(vk_right) - keyboard_check(vk_left);
+	var ver = (hor != 0) ? 0 : keyboard_check(vk_down) - keyboard_check(vk_up);
 	
-	if (movementDelay-- == 0) {
-		x += hor * 16;
-		y += ver * 24;
-		
-		movementDelay = 5;
-		
-		actor_end_turn();
+	if (movementDelay-- <= 0) {
+		if (hor != 0 || ver != 0) {
+			actor_move_to(hor, ver);
+			actor_end_turn();
+			
+			movementDelay = 8;
+		}
 	}
 }
