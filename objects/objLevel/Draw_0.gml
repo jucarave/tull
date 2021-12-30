@@ -5,7 +5,7 @@ for (var _y=0;_y<height;_y++) {
 		var tile = level[ver + _x];
 		
 		if (tile != 0) {
-			draw_sprite(sprites[tile], 0, _x * GRID_WIDTH, _y * GRID_HEIGHT);
+			draw_sprite(sprite_index, tile, _x * GRID_WIDTH, _y * GRID_HEIGHT);
 		}
 	}
 }
