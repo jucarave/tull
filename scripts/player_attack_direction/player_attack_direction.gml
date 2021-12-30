@@ -6,6 +6,8 @@ function player_attack_direction(){
 		var xTo = x + hor * GRID_WIDTH;
 		var yTo = y + ver * GRID_HEIGHT;
 		
+		sys_set_action_text("");
+		
 		var actor = actor_get_at(xTo, yTo);
 		if (actor != noone) {
 			instance_destroy(actor);
