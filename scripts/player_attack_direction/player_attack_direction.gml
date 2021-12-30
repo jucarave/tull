@@ -9,6 +9,7 @@ function player_attack_direction(){
 		var actor = actor_get_at(xTo, yTo);
 		if (actor != noone) {
 			instance_destroy(actor);
+			sys_set_action_text("Skeleton just died.", 5);
 		}
 		
 		actor_end_turn();

@@ -14,3 +14,5 @@ level = [
 ];
 
 solids = [3, 4, 5];
+
+event_inherited();
