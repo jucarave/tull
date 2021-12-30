@@ -1,0 +1,1 @@
+sys_remove_from_instances_list(id);
