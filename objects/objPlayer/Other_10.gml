@@ -13,5 +13,8 @@ switch (state) {
 		
 	case STATES.MOVING:
 		actor_update_movement();
+		if (acted) {
+			level_update_light();
+		}
 		break;
 }

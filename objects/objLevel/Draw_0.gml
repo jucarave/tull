@@ -11,9 +11,14 @@ for (var _y=y1;_y<y2;_y++) {
 	for (var _x=x1;_x<x2;_x++) {
 	
 		var tile = level[ver + _x];
+		var _visible = viewMap[ver + _x];
 		
 		if (tile != 0) {
-			draw_sprite(sprite_index, tile, _x * GRID_WIDTH + xport, _y * GRID_HEIGHT + yport);
+			if (_visible == 2) {
+				draw_sprite(sprite_index, tile, _x * GRID_WIDTH + xport, _y * GRID_HEIGHT + yport);
+			} else if (_visible == 1) {
+				draw_sprite_ext(sprite_index, tile, _x * GRID_WIDTH + xport, _y * GRID_HEIGHT + yport, 1, 1, 0, shadowsColor, 1);
+			}
 		}
 	}
 }

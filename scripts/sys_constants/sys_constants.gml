@@ -1,5 +1,7 @@
 #macro EVENT_STEP 0
 
+#macro LIGHT_DISTANCE 4
+
 #macro GRID_WIDTH 16
 #macro GRID_HEIGHT 24
 
