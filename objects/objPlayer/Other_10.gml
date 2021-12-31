@@ -9,4 +9,8 @@ switch (state) {
 	case STATES.SELECT_DIRECTION:
 		player_attack_direction();
 		break;
+		
+	case STATES.MOVING:
+		actor_update_movement();
+		break;
 }

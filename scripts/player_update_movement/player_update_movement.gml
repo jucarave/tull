@@ -5,9 +5,8 @@ function player_update_movement() {
 	if (movementDelay-- <= 0) {
 		if (hor != 0 || ver != 0) {
 			actor_move_to(hor, ver);
-			actor_end_turn();
 			
-			movementDelay = 8;
+			movementDelay = 0;
 		}
 	}
 }

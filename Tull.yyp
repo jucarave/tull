@@ -25,6 +25,7 @@
     {"id":{"name":"player_attack_direction","path":"scripts/player_attack_direction/player_attack_direction.yy",},"order":2,},
     {"id":{"name":"sys_remove_from_instances_list","path":"scripts/sys_remove_from_instances_list/sys_remove_from_instances_list.yy",},"order":2,},
     {"id":{"name":"actor_end_turn","path":"scripts/actor_end_turn/actor_end_turn.yy",},"order":0,},
+    {"id":{"name":"actor_update_movement","path":"scripts/actor_update_movement/actor_update_movement.yy",},"order":3,},
     {"id":{"name":"sprCatacombs","path":"sprites/sprCatacombs/sprCatacombs.yy",},"order":1,},
     {"id":{"name":"sys_set_action_text","path":"scripts/sys_set_action_text/sys_set_action_text.yy",},"order":3,},
     {"id":{"name":"sprBottomBar","path":"sprites/sprBottomBar/sprBottomBar.yy",},"order":1,},

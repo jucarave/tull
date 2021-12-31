@@ -3,7 +3,8 @@ function actor_move_to(xTo, yTo){
 	var _y = y + yTo * GRID_HEIGHT;
 	
 	if (!level_is_solid(floor(_x / GRID_WIDTH), floor(_y / GRID_HEIGHT))) {
-		x = _x;
-		y = _y;
+		targetX = _x;
+		targetY = _y;
+		state = STATES.MOVING;
 	}
 }

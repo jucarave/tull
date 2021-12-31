@@ -1,5 +1,5 @@
-var x1 = objPlayer.x / GRID_WIDTH + xview;
-var y1 = objPlayer.y / GRID_HEIGHT + yview;
+var x1 = floor(objPlayer.x / GRID_WIDTH) + xview;
+var y1 = floor(objPlayer.y / GRID_HEIGHT) + yview;
 var x2 = min(x1 + wview, width);
 var y2 = min(y1 + hview, height);
 
