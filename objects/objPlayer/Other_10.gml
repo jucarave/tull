@@ -4,6 +4,7 @@ switch (state) {
 	case STATES.IDLE:
 		player_update_movement();
 		if (!acted) player_update_attack();
+		if (!acted) player_update_pass();
 		break;
 		
 	case STATES.SELECT_DIRECTION:

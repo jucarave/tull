@@ -23,6 +23,7 @@
     {"id":{"name":"array_find","path":"scripts/array_find/array_find.yy",},"order":0,},
     {"id":{"name":"sys_add_to_instances_list","path":"scripts/sys_add_to_instances_list/sys_add_to_instances_list.yy",},"order":1,},
     {"id":{"name":"player_attack_direction","path":"scripts/player_attack_direction/player_attack_direction.yy",},"order":2,},
+    {"id":{"name":"player_update_pass","path":"scripts/player_update_pass/player_update_pass.yy",},"order":3,},
     {"id":{"name":"sys_remove_from_instances_list","path":"scripts/sys_remove_from_instances_list/sys_remove_from_instances_list.yy",},"order":2,},
     {"id":{"name":"actor_end_turn","path":"scripts/actor_end_turn/actor_end_turn.yy",},"order":0,},
     {"id":{"name":"actor_update_movement","path":"scripts/actor_update_movement/actor_update_movement.yy",},"order":3,},
