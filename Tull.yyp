@@ -5,6 +5,7 @@
     {"id":{"name":"actor_move_to","path":"scripts/actor_move_to/actor_move_to.yy",},"order":1,},
     {"id":{"name":"objSystem","path":"objects/objSystem/objSystem.yy",},"order":0,},
     {"id":{"name":"sprCKnight","path":"sprites/sprCKnight/sprCKnight.yy",},"order":0,},
+    {"id":{"name":"actor_attack_to","path":"scripts/actor_attack_to/actor_attack_to.yy",},"order":4,},
     {"id":{"name":"player_update_attack","path":"scripts/player_update_attack/player_update_attack.yy",},"order":1,},
     {"id":{"name":"player_update_movement","path":"scripts/player_update_movement/player_update_movement.yy",},"order":0,},
     {"id":{"name":"objActionText","path":"objects/objActionText/objActionText.yy",},"order":0,},
