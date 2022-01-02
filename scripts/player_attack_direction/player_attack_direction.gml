@@ -9,13 +9,6 @@ function player_attack_direction(){
 		sys_set_action_text("");
 		
 		var actor = actor_get_at(xTo, yTo);
-		if (actor != noone) {
-			actor_attack_to(actor);
-		}
-		
-		actor_end_turn();
-		state = STATES.IDLE;
-		
-		movementDelay = 8;
+		actor_attack_to(actor, xTo, yTo);
 	}
 }

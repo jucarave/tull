@@ -1,6 +1,9 @@
 /// @description Step Event
 
 switch (state) {
+	case STATES.NONE:
+		break;
+		
 	case STATES.IDLE:
 		player_update_movement();
 		if (!acted) player_update_attack();

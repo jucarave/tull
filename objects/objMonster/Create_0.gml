@@ -1,8 +1,9 @@
 event_inherited();
 
 STATES = {
-	IDLE: 0,
-	MOVING: 1
+	NONE: 0,
+	IDLE: 1,
+	MOVING: 2
 };
 
 state = STATES.IDLE;

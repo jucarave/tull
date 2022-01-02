@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Utils",
-    "path": "folders/Scripts/Utils.yy",
+    "name": "Effects",
+    "path": "folders/Scripts/FX/Effects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "array_find",
+  "name": "fx_perform_attack",
   "tags": [],
   "resourceType": "GMScript",
 }

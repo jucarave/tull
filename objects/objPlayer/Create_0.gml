@@ -1,9 +1,10 @@
 event_inherited();
 
 STATES = {
-	IDLE: 0,
-	SELECT_DIRECTION: 1,
-	MOVING: 2
+	NONE: 0,
+	IDLE: 1,
+	SELECT_DIRECTION: 2,
+	MOVING: 3
 };
 
 state = STATES.IDLE;

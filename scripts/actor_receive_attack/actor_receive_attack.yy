@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Utils",
-    "path": "folders/Scripts/Utils.yy",
+    "name": "Actors",
+    "path": "folders/Scripts/Actors.yy",
   },
   "resourceVersion": "1.0",
-  "name": "array_find",
+  "name": "actor_receive_attack",
   "tags": [],
   "resourceType": "GMScript",
 }

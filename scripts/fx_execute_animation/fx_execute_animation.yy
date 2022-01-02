@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Utils",
-    "path": "folders/Scripts/Utils.yy",
+    "name": "FX",
+    "path": "folders/Scripts/FX.yy",
   },
   "resourceVersion": "1.0",
-  "name": "array_find",
+  "name": "fx_execute_animation",
   "tags": [],
   "resourceType": "GMScript",
 }
