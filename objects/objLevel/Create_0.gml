@@ -4,7 +4,7 @@ yport = 8;
 xview = -20;
 yview = -7;
 wview = 42;
-hview = 15;
+hview = 16;
 
 shadowsColor = make_color_rgb(51, 69, 81);
 
