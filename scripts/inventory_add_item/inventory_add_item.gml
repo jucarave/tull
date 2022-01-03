@@ -1,3 +1,5 @@
 function inventory_add_item(item) {
-	ds_list_add(objSystem.inventory, item);
+	if (item.type == ITEM_TYPE_WEAPON) {
+		ds_list_add(objSystem.weapons, item);
+	}
 }

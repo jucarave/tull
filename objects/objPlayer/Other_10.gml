@@ -7,7 +7,7 @@ switch (state) {
 	case STATES.IDLE:
 		player_update_movement();
 		if (!acted) player_update_pass();
-		if (!acted) player_update_interact();
+		if (!acted) player_update_actions();
 		if (!acted) player_update_attack();
 		break;
 		
@@ -18,5 +18,9 @@ switch (state) {
 	case STATES.MOVING:
 		actor_update_movement();
 		if (acted) level_update_light();
+		break;
+		
+	case STATES.WEAPONS_MENU:
+		player_update_weapons_menu();
 		break;
 }

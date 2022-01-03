@@ -1,6 +1,6 @@
 function sys_new_game(){
-	inventory = ds_list_create();
-	weapon = noone;
+	weapons = ds_list_create();
+	weapon = -1;
 	
 	hp = 48;
 	maxHP = 48;

@@ -1,1 +1,1 @@
-ds_list_clear(inventory);
+ds_list_clear(weapons);

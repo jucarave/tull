@@ -10,5 +10,8 @@
 #macro KEY_LEFT vk_left
 #macro KEY_DOWN vk_down
 #macro KEY_ATTACK ord("A")
-#macro KEY_INTERACT ord("E")
+#macro KEY_INTERACT vk_enter
+#macro KEY_WEAPONS ord("Q")
 #macro KEY_PASS vk_space
+
+#macro ITEM_TYPE_WEAPON 0

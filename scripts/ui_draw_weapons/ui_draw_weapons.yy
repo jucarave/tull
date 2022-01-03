@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Player",
-    "path": "folders/Scripts/Player.yy",
+    "name": "UI",
+    "path": "folders/Scripts/UI.yy",
   },
   "resourceVersion": "1.0",
-  "name": "player_update_interact",
+  "name": "ui_draw_weapons",
   "tags": [],
   "resourceType": "GMScript",
 }

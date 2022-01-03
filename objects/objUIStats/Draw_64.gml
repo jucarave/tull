@@ -8,8 +8,4 @@ draw_sprite_ext(sprMPBarFill, 0, 10, 356, 1, objSystem.mp, 0, c_white, 1);
 
 draw_sprite(sprUIItemBack, 0, 15, 308);
 
-draw_sprite(sprUIItemBack, 0, 15, 334);
-if (objSystem.weapon != noone) {
-	var item = objSystem.inventory[| objSystem.weapon];
-	draw_sprite(item.sprite, 0, 15, 334);
-}
+ui_draw_weapons();
