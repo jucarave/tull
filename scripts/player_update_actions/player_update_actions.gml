@@ -3,7 +3,7 @@ function player_update_actions(){
 		var item = level_get_item_at(x, y);
 		if (item != noone) {
 			inventory_add_item(item.item);
-			sys_set_action_text(item.item.name + " picked", 5);
+			sys_set_action_text(item.item.name + " picked", ACTION_TEXT_SHORT);
 			instance_destroy(item);
 		}
 		

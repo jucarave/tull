@@ -8,9 +8,9 @@ function player_update_weapons_menu(){
 		
 		if (objSystem.weapon != prevWeapon) {
 			if (objSystem.weapon == -1) {
-				sys_set_action_text("Weapon sheathed", 5);
+				sys_set_action_text("Weapon sheathed", ACTION_TEXT_SHORT);
 			} else {
-				sys_set_action_text(objSystem.weapons[| objSystem.weapon].name + " equipped", 5);
+				sys_set_action_text(objSystem.weapons[| objSystem.weapon].name + " equipped", ACTION_TEXT_SHORT);
 			}
 		}
 	}

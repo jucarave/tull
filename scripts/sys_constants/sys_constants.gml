@@ -15,3 +15,7 @@
 #macro KEY_PASS vk_space
 
 #macro ITEM_TYPE_WEAPON 0
+
+#macro NO_WEAPON -1
+
+#macro ACTION_TEXT_SHORT 5

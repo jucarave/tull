@@ -1,7 +1,7 @@
 function ui_draw_weapons(){
 	var _y = 334;
 	draw_sprite(sprUIItemBack, 0, 15, _y);
-	if (objSystem.weapon != -1) {
+	if (objSystem.weapon != NO_WEAPON) {
 		var item = objSystem.weapons[| objSystem.weapon];
 		draw_sprite(item.sprite, 0, 15, _y);
 	}
