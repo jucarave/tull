@@ -6,7 +6,6 @@ switch (state) {
 		
 	case STATES.IDLE:
 		player_update_movement();
-		if (!acted) player_update_pass();
 		if (!acted) player_update_actions();
 		if (!acted) player_update_attack();
 		break;

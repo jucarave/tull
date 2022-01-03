@@ -1,5 +1,5 @@
 function player_update_weapons_menu(){
-	var hor = keyboard_check(vk_right) - keyboard_check(vk_left);
+	var hor = keyboard_check_pressed(vk_right) - keyboard_check_pressed(vk_left);
 	
 	if (hor != 0) {
 		objSystem.weapon = clamp(objSystem.weapon + hor, -1, ds_list_size(objSystem.weapons) - 1);
@@ -8,9 +8,9 @@ function player_update_weapons_menu(){
 		
 		if (objSystem.weapon != prevWeapon) {
 			if (objSystem.weapon == -1) {
-				sys_set_action_text("Weapon sheathed", ACTION_TEXT_SHORT);
+				sys_set_action_text(loc("item.weaponSheathed"), ACTION_TEXT_SHORT);
 			} else {
-				sys_set_action_text(objSystem.weapons[| objSystem.weapon].name + " equipped", ACTION_TEXT_SHORT);
+				sys_set_action_text(loc(objSystem.weapons[| objSystem.weapon].name + ".equipped"), ACTION_TEXT_SHORT);
 			}
 		}
 	}
