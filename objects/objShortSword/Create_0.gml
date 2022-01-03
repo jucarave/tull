@@ -1,3 +1,3 @@
 event_inherited();
 
-item = item_create("short sword");
+item = item_create(sprite_index, "short sword");
