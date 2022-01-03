@@ -19,3 +19,6 @@
 #macro NO_WEAPON -1
 
 #macro ACTION_TEXT_SHORT 5
+
+#macro ATTACK_TYPE_PUNCH 0
+#macro ATTACK_TYPE_SLASH 1

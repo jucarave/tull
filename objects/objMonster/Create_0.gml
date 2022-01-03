@@ -7,3 +7,5 @@ STATES = {
 };
 
 state = STATES.IDLE;
+
+actor = actor_create("skeleton", 5);

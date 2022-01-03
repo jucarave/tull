@@ -13,4 +13,6 @@ function lan_en(){
 	global.LANG[? "shortSword.equipped"] = "Short sword equipped.";
 	
 	global.LANG[? "wait"] = "Waiting.";
+	
+	global.LANG[? "skeleton.dies"] = "The skeleton dies.";
 }

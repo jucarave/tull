@@ -20,6 +20,7 @@ steps = ds_list_create();
 
 #macro FX_DIR_ATTACK 2
 #macro FX_DIR_ATTACK_TARGET 1
+#macro FX_DIR_ATTACK_WEAPON 2
 
 #macro FX_DIR_END_TURN 3
 #macro FX_DIR_END_TURN_ACTOR 1

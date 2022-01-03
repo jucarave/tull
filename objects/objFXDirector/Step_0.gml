@@ -12,7 +12,8 @@ switch (step[FX_DIR_TYPE]) {
 		break;
 		
 	case FX_DIR_ATTACK:
-		with (step[FX_DIR_ATTACK_TARGET]) { actor_receive_attack(); }
+		var weapon = step[FX_DIR_ATTACK_WEAPON];
+		with (step[FX_DIR_ATTACK_TARGET]) { actor_receive_attack(weapon); }
 		fx_next_step();
 		break;
 		
