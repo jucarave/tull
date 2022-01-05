@@ -19,6 +19,7 @@
     {"id":{"name":"fx_add_animation","path":"scripts/fx_add_animation/fx_add_animation.yy",},"order":0,},
     {"id":{"name":"sprTopBar","path":"sprites/sprTopBar/sprTopBar.yy",},"order":0,},
     {"id":{"name":"player_get_weapon","path":"scripts/player_get_weapon/player_get_weapon.yy",},"order":6,},
+    {"id":{"name":"sys_execute_turn","path":"scripts/sys_execute_turn/sys_execute_turn.yy",},"order":5,},
     {"id":{"name":"bresenham_line","path":"scripts/bresenham_line/bresenham_line.yy",},"order":1,},
     {"id":{"name":"lan_en","path":"scripts/lan_en/lan_en.yy",},"order":1,},
     {"id":{"name":"lan_es","path":"scripts/lan_es/lan_es.yy",},"order":0,},
