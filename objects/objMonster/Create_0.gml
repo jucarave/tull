@@ -3,7 +3,8 @@ event_inherited();
 STATES = {
 	NONE: 0,
 	IDLE: 1,
-	MOVING: 2
+	CHASING: 2,
+	MOVING: 3
 };
 
 state = STATES.IDLE;

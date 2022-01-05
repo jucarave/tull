@@ -6,4 +6,4 @@ camera = view_camera[0];
 targetX = x;
 targetY = y;
 
-spd = 4;
+spd = 2;
