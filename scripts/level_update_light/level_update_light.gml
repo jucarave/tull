@@ -15,7 +15,7 @@ function lightcast(points) {
 	
 		objLevel.viewMap[gy * objLevel.width + gx] = 2;
 		
-		if (level_is_solid(gx, gy)) {
+		if (level_is_solid(gx, gy, true)) {
 			break;
 		}
 	}
