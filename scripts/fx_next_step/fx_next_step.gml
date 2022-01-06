@@ -5,5 +5,6 @@ function fx_next_step(){
 	if (ds_list_size(steps) > 0) {
 		step = steps[| 0];
 		fx_parse_step();
+		fx_execute_step();
 	}
 }

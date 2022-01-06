@@ -1,9 +1,12 @@
 /// @description Step Event
 
 switch (state) {
+	case STATES.NONE:
+		break;
+		
 	case STATES.IDLE:
 		if (active) {
-			enemy_pursue_player();
+			enemy_update_idle();
 		} else if (level_is_visible(xgrid, ygrid)) {
 			actor_activate();
 		} else {

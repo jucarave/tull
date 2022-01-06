@@ -8,7 +8,7 @@ function player_update_movement() {
 		var actor = actor_get_at(xTo, yTo);
 
 		if (actor != noone) { // Bump melee attack
-			actor_attack_to(actor, xTo, yTo);
+			actor_attack_to(actor, player_get_weapon(), xTo, yTo);
 		} else {
 			actor_move_to(hor, ver);
 		}

@@ -1,7 +1,7 @@
 function sys_execute_turn(){
 	var ins = instancesList[| currentTurn];
 
-	with (ins) { event_user(EVENT_STEP); }
+	if (!ins.acted) with (ins) { event_user(EVENT_STEP); }
 
 	// If the actor finishes the turn then move to the next
 	if (ins.acted) {

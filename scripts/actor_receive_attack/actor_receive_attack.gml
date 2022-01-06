@@ -1,8 +1,9 @@
 function actor_receive_attack(weapon){
-	actor.hp -= weapon.damage;
+	var instance = (object_index == objPlayer) ? objSystem.playerStats : actor;
+	instance.hp -= weapon.damage;
 
-	if (actor.hp <= 0) {
+	if (instance.hp <= 0) {
 		instance_destroy();
-		sys_set_action_text(loc(actor.name + ".dies"), ACTION_TEXT_SHORT);
+		sys_set_action_text(loc(instance.name + ".dies"), ACTION_TEXT_SHORT);
 	}
 }

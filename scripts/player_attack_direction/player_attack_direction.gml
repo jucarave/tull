@@ -9,6 +9,6 @@ function player_attack_direction(){
 		sys_set_action_text("");
 		
 		var actor = actor_get_at(xTo, yTo);
-		actor_attack_to(actor, xTo, yTo);
+		actor_attack_to(actor, player_get_weapon(), xTo, yTo);
 	}
 }
