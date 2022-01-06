@@ -15,4 +15,5 @@ function lan_es(){
 	global.LANG[? "wait"] = "Esperando.";
 	
 	global.LANG[? "skeleton.dies"] = "El esqueleto muere.";
+	global.LANG[? "skeleton.activate"] = "Ves a un esqueleto.";
 }

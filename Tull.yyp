@@ -10,6 +10,7 @@
     {"id":{"name":"actor_move_to","path":"scripts/actor_move_to/actor_move_to.yy",},"order":1,},
     {"id":{"name":"objSystem","path":"objects/objSystem/objSystem.yy",},"order":0,},
     {"id":{"name":"sprCKnight","path":"sprites/sprCKnight/sprCKnight.yy",},"order":0,},
+    {"id":{"name":"actor_activate","path":"scripts/actor_activate/actor_activate.yy",},"order":7,},
     {"id":{"name":"fx_set_state","path":"scripts/fx_set_state/fx_set_state.yy",},"order":1,},
     {"id":{"name":"actor_attack_to","path":"scripts/actor_attack_to/actor_attack_to.yy",},"order":4,},
     {"id":{"name":"player_update_attack","path":"scripts/player_update_attack/player_update_attack.yy",},"order":1,},

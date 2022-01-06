@@ -15,4 +15,5 @@ function lan_en(){
 	global.LANG[? "wait"] = "Waiting.";
 	
 	global.LANG[? "skeleton.dies"] = "The skeleton dies.";
+	global.LANG[? "skeleton.activate"] = "You see a skeleton.";
 }
