@@ -26,6 +26,7 @@
     {"id":{"name":"lan_es","path":"scripts/lan_es/lan_es.yy",},"order":0,},
     {"id":{"name":"fntConsolas10","path":"fonts/fntConsolas10/fntConsolas10.yy",},"order":0,},
     {"id":{"name":"fx_perform_attack","path":"scripts/fx_perform_attack/fx_perform_attack.yy",},"order":2,},
+    {"id":{"name":"enemy_pursue_player","path":"scripts/enemy_pursue_player/enemy_pursue_player.yy",},"order":0,},
     {"id":{"name":"sprMSkeleton","path":"sprites/sprMSkeleton/sprMSkeleton.yy",},"order":0,},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"order":0,},
     {"id":{"name":"item_create","path":"scripts/item_create/item_create.yy",},"order":0,},
@@ -125,6 +126,7 @@
     {"folderPath":"folders/Objects/Items.yy","order":8,"resourceVersion":"1.0","name":"Items","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/UI.yy","order":9,"resourceVersion":"1.0","name":"UI","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/Language.yy","order":10,"resourceVersion":"1.0","name":"Language","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Scripts/Enemies.yy","order":11,"resourceVersion":"1.0","name":"Enemies","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
