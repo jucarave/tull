@@ -3,7 +3,7 @@ function player_update_weapons_menu(){
 	
 	if (hor != 0) {
 		objSystem.weapon = clamp(objSystem.weapon + hor, -1, ds_list_size(objSystem.weapons) - 1);
-	} else if (keyboard_check_pressed(KEY_WEAPONS)) {
+	} else if (keyboard_check_pressed(KEY_WEAPONS) || keyboard_check_pressed(KEY_INTERACT)) {
 		state = STATES.IDLE;
 		
 		if (objSystem.weapon != prevWeapon) {

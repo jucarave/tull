@@ -39,4 +39,18 @@ level = [
 solids = [3, 4, 5, 6, 7, 8, 9, 10, 13];
 lightSolids = [3, 4, 5];
 
+var enemies = [
+	[4, 2],
+	[4, 7],
+	[17, 11],
+	[15, 23],
+	[19, 23],
+	[10, 24]
+];
+
+for (var i=0;i<array_length(enemies);i++) {
+	var e = enemies[i];
+	instance_create_layer(e[0] * GRID_WIDTH, e[1] * GRID_HEIGHT, "Instances", objSkeleton);
+}
+
 event_inherited();
