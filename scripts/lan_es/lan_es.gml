@@ -12,6 +12,8 @@ function lan_es(){
 	global.LANG[? "shortSword.picked"] = "Espada corta recogida.";
 	global.LANG[? "shortSword.equipped"] = "Espada corta equipada.";
 	
+	global.LANG[? "hpPotion.picked"] = "Poción de salud recogida.";
+	
 	global.LANG[? "wait"] = "Esperando.";
 	
 	global.LANG[? "skeleton.dies"] = "El esqueleto muere.";
