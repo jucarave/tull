@@ -39,6 +39,7 @@
     {"id":{"name":"objUIStats","path":"objects/objUIStats/objUIStats.yy",},"order":2,},
     {"id":{"name":"objLevel","path":"objects/objLevel/objLevel.yy",},"order":0,},
     {"id":{"name":"sys_constants","path":"scripts/sys_constants/sys_constants.yy",},"order":0,},
+    {"id":{"name":"level_set_solids","path":"scripts/level_set_solids/level_set_solids.yy",},"order":5,},
     {"id":{"name":"sprUIBar","path":"sprites/sprUIBar/sprUIBar.yy",},"order":1,},
     {"id":{"name":"loc","path":"scripts/loc/loc.yy",},"order":2,},
     {"id":{"name":"fx_end_turn","path":"scripts/fx_end_turn/fx_end_turn.yy",},"order":3,},
