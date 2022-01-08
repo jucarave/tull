@@ -19,7 +19,7 @@ switch (state) {
 		if (acted) level_update_light();
 		break;
 		
-	case STATES.WEAPONS_MENU:
-		player_update_weapons_menu();
+	case STATES.INVENTORY:
+		player_update_inventory();
 		break;
 }

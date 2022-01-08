@@ -11,8 +11,8 @@ function player_update_actions(){
 		}
 		
 		actor_end_turn();
-	}else if (keyboard_check_pressed(KEY_WEAPONS)) {
-		state = STATES.WEAPONS_MENU;
+	}else if (keyboard_check_pressed(KEY_INVENTORY)) {
+		state = STATES.INVENTORY;
 		prevWeapon = objSystem.weapon;
 	}
 }

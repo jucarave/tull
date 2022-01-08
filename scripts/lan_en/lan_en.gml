@@ -13,6 +13,7 @@ function lan_en(){
 	global.LANG[? "shortSword.equipped"] = "Short sword equipped.";
 	
 	global.LANG[? "hpPotion.picked"] = "Health potion picked.";
+	global.LANG[? "hpPotion.used"] = "Health potion consumed.";
 	
 	global.LANG[? "wait"] = "Waiting.";
 	
