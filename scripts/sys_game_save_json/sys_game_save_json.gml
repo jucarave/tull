@@ -3,10 +3,20 @@ function sys_game_save_json(){
 	
 	var data = {
 		player: {
-			x: floor(objPlayer.x / GRID_WIDTH),
-			y: floor(objPlayer.y / GRID_HEIGHT),
+			x: objPlayer.x,
+			y: objPlayer.y,
+			targetX: objPlayer.targetX,
+			targetY: objPlayer.targetY,
 			state: objPlayer.state,
 			acted: objPlayer.acted
+		},
+		
+		level: {
+			object: objLevel.object_index,
+			viewMap: objLevel.viewMap,
+			level: objLevel.level,
+			width: objLevel.width,
+			height: objLevel.height
 		}
 	};
 	

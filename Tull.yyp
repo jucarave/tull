@@ -5,6 +5,7 @@
     {"id":{"name":"objCatacombs","path":"objects/objCatacombs/objCatacombs.yy",},"order":1,},
     {"id":{"name":"fx_start","path":"scripts/fx_start/fx_start.yy",},"order":4,},
     {"id":{"name":"objShortSword","path":"objects/objShortSword/objShortSword.yy",},"order":0,},
+    {"id":{"name":"level_parse_solid_map","path":"scripts/level_parse_solid_map/level_parse_solid_map.yy",},"order":6,},
     {"id":{"name":"level_get_path","path":"scripts/level_get_path/level_get_path.yy",},"order":4,},
     {"id":{"name":"level_is_solid","path":"scripts/level_is_solid/level_is_solid.yy",},"order":0,},
     {"id":{"name":"actor_move_to","path":"scripts/actor_move_to/actor_move_to.yy",},"order":1,},
