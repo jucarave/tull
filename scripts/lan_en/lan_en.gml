@@ -21,4 +21,8 @@ function lan_en(){
 	
 	global.LANG[? "skeleton.dies"] = "The skeleton dies.";
 	global.LANG[? "skeleton.activate"] = "You see a skeleton.";
+	
+	global.LANG[? "game.saved"] = "Game saved.";
+	global.LANG[? "game.loaded"] = "Game loaded.";
+	global.LANG[? "game.notFound"] = "Game saved not found.";
 }
