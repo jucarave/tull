@@ -1,7 +1,8 @@
-function item_create(sprite, type, name) {
+function item_create(sprite, type, name, objectId) {
 	return {
 		sprite: sprite,
 		type: type,
-		name: name
+		name: name,
+		objectId: objectId
 	};
 }

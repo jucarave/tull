@@ -49,6 +49,7 @@
     {"id":{"name":"actor_get_at","path":"scripts/actor_get_at/actor_get_at.yy",},"order":2,},
     {"id":{"name":"objUIBars","path":"objects/objUIBars/objUIBars.yy",},"order":1,},
     {"id":{"name":"array_find","path":"scripts/array_find/array_find.yy",},"order":0,},
+    {"id":{"name":"inventory_equip_weapon","path":"scripts/inventory_equip_weapon/inventory_equip_weapon.yy",},"order":5,},
     {"id":{"name":"ui_draw_weapons","path":"scripts/ui_draw_weapons/ui_draw_weapons.yy",},"order":0,},
     {"id":{"name":"player_update_inventory","path":"scripts/player_update_inventory/player_update_inventory.yy",},"order":5,},
     {"id":{"name":"actor_create","path":"scripts/actor_create/actor_create.yy",},"order":6,},
@@ -76,6 +77,7 @@
     {"id":{"name":"inventory_add_item","path":"scripts/inventory_add_item/inventory_add_item.yy",},"order":1,},
     {"id":{"name":"fx_execute_step","path":"scripts/fx_execute_step/fx_execute_step.yy",},"order":7,},
     {"id":{"name":"level_get_item_at","path":"scripts/level_get_item_at/level_get_item_at.yy",},"order":3,},
+    {"id":{"name":"inventory_use_item","path":"scripts/inventory_use_item/inventory_use_item.yy",},"order":4,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
