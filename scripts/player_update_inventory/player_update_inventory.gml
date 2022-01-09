@@ -5,6 +5,7 @@ function player_update_inventory(){
 	if (ver != 0) {
 		objSystem.inventoryTab = clamp(objSystem.inventoryTab + ver, 0, array_length(objSystem.inventoryLists) - 1);
 		objSystem.inventoryCursor = -1;
+		sys_set_action_text("");
 		exit;
 	}
 	
@@ -12,8 +13,12 @@ function player_update_inventory(){
 	
 	if (hor != 0) {
 		objSystem.inventoryCursor = clamp(objSystem.inventoryCursor + hor, -1, ds_list_size(list) - 1);
+		if (objSystem.inventoryCursor != -1) {
+			sys_set_action_text(loc(list[| objSystem.inventoryCursor].name + ".description"));
+		}
 	} else if (keyboard_check_pressed(KEY_INVENTORY)) {
 		state = STATES.IDLE;
+		sys_set_action_text("");
 		inventory_reset();
 	} else if (keyboard_check_pressed(KEY_INTERACT)) {
 		switch (objSystem.inventoryTab) {
@@ -28,6 +33,7 @@ function player_update_inventory(){
 		}
 		
 		state = STATES.IDLE;
+		sys_set_action_text("");
 		inventory_reset();
 	}
 }

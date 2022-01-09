@@ -11,9 +11,11 @@ function lan_en(){
 	
 	global.LANG[? "shortSword.picked"] = "Short sword picked.";
 	global.LANG[? "shortSword.equipped"] = "Short sword equipped.";
+	global.LANG[? "shortSword.description"] = "Short sword, deals " + string(DATA_SHORT_SWORD_DMG) + " slashing damage.";
 	
 	global.LANG[? "hpPotion.picked"] = "Health potion picked.";
 	global.LANG[? "hpPotion.used"] = "Health potion consumed.";
+	global.LANG[? "hpPotion.description"] = "Restores " + string(DATA_HP_POTION_HEALS) + " points of health.";
 	
 	global.LANG[? "wait"] = "Waiting.";
 	

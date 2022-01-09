@@ -26,3 +26,6 @@
 
 #macro xgrid floor(x / GRID_WIDTH)
 #macro ygrid floor(y / GRID_HEIGHT)
+
+#macro DATA_SHORT_SWORD_DMG 3
+#macro DATA_HP_POTION_HEALS 10
