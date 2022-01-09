@@ -1,6 +1,8 @@
 function actor_receive_attack(weapon){
 	var instance = (object_index == objPlayer) ? objSystem.playerStats : actor;
 	instance.hp -= weapon.damage;
+	
+	ui_create_damage(x, y, weapon.damage);
 
 	if (instance.hp <= 0) {
 		instance_destroy();
