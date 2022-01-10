@@ -12,8 +12,13 @@ function sys_execute_turn(){
 		// Restart the turn list if overflowed
 		if (currentTurn >= ds_list_size(instancesList)) {
 			currentTurn = 0;
-			exit;
 		}
+		
+		if (instancesList[| currentTurn].object_index == objPlayer) {
+			sys_game_save_json();
+		}
+		
+		if (currentTurn == 0) { exit; }
 		
 		sys_execute_turn();
 	}

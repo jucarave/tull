@@ -14,6 +14,7 @@
     {"id":{"name":"actor_activate","path":"scripts/actor_activate/actor_activate.yy",},"order":7,},
     {"id":{"name":"fx_set_state","path":"scripts/fx_set_state/fx_set_state.yy",},"order":1,},
     {"id":{"name":"actor_attack_to","path":"scripts/actor_attack_to/actor_attack_to.yy",},"order":4,},
+    {"id":{"name":"rooGame","path":"rooms/rooGame/rooGame.yy",},"order":1,},
     {"id":{"name":"player_update_attack","path":"scripts/player_update_attack/player_update_attack.yy",},"order":1,},
     {"id":{"name":"player_update_movement","path":"scripts/player_update_movement/player_update_movement.yy",},"order":0,},
     {"id":{"name":"sprUIItemBack","path":"sprites/sprUIItemBack/sprUIItemBack.yy",},"order":4,},
@@ -53,6 +54,7 @@
     {"id":{"name":"actor_get_at","path":"scripts/actor_get_at/actor_get_at.yy",},"order":2,},
     {"id":{"name":"objUIBars","path":"objects/objUIBars/objUIBars.yy",},"order":1,},
     {"id":{"name":"array_find","path":"scripts/array_find/array_find.yy",},"order":0,},
+    {"id":{"name":"sprTitleCursor","path":"sprites/sprTitleCursor/sprTitleCursor.yy",},"order":6,},
     {"id":{"name":"inventory_equip_weapon","path":"scripts/inventory_equip_weapon/inventory_equip_weapon.yy",},"order":5,},
     {"id":{"name":"ui_draw_weapons","path":"scripts/ui_draw_weapons/ui_draw_weapons.yy",},"order":0,},
     {"id":{"name":"sprDamageFont","path":"sprites/sprDamageFont/sprDamageFont.yy",},"order":5,},
@@ -74,6 +76,7 @@
     {"id":{"name":"objItem","path":"objects/objItem/objItem.yy",},"order":2,},
     {"id":{"name":"attack_slash","path":"scripts/attack_slash/attack_slash.yy",},"order":0,},
     {"id":{"name":"sprMPBarFill","path":"sprites/sprMPBarFill/sprMPBarFill.yy",},"order":3,},
+    {"id":{"name":"objTitle","path":"objects/objTitle/objTitle.yy",},"order":0,},
     {"id":{"name":"sys_new_game","path":"scripts/sys_new_game/sys_new_game.yy",},"order":4,},
     {"id":{"name":"objReceivedDamage","path":"objects/objReceivedDamage/objReceivedDamage.yy",},"order":3,},
     {"id":{"name":"fx_next_step","path":"scripts/fx_next_step/fx_next_step.yy",},"order":1,},
@@ -86,7 +89,7 @@
     {"id":{"name":"fx_execute_step","path":"scripts/fx_execute_step/fx_execute_step.yy",},"order":7,},
     {"id":{"name":"level_get_item_at","path":"scripts/level_get_item_at/level_get_item_at.yy",},"order":3,},
     {"id":{"name":"inventory_use_item","path":"scripts/inventory_use_item/inventory_use_item.yy",},"order":4,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"rooTitle","path":"rooms/rooTitle/rooTitle.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Linux","path":"options/linux/options_linux.yy",},
@@ -103,7 +106,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rooTitle","path":"rooms/rooTitle/rooTitle.yy",},},
+    {"roomId":{"name":"rooGame","path":"rooms/rooGame/rooGame.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -146,6 +150,7 @@
     {"folderPath":"folders/Scripts/Language.yy","order":10,"resourceVersion":"1.0","name":"Language","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/Enemies.yy","order":11,"resourceVersion":"1.0","name":"Enemies","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Items.yy","order":8,"resourceVersion":"1.0","name":"Items","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Title.yy","order":9,"resourceVersion":"1.0","name":"Title","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

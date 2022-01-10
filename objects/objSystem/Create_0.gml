@@ -13,4 +13,12 @@ global.LANG = noone;
 global.DMG_FONT = font_add_sprite_ext(sprDamageFont, "0123456789", true, 0);
 lan_es();
 
-sys_new_game();
+if (global.LOAD_GAME) {
+	sys_game_load_json();
+} else {
+	sys_new_game();
+}
+
+inventoryCursor = -1;
+inventoryTab = 0;
+inventoryLists = [weapons, consumables];

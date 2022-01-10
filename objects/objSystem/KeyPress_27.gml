@@ -1,1 +1,1 @@
-game_end();
+room_goto(rooTitle);

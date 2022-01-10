@@ -8,17 +8,18 @@ function sys_game_load_json(){
 	var json = json_parse(file_text_read_string(file));
 	file_text_close(file);
 	
+	objCurrentTurn.currentTurn = real(json.currentTurn);
+	
 	objSystem.weapons = list_from_array(json.system.weapons);
 	objSystem.weapon = json.system.weapon;
 	objSystem.consumables = list_from_array(json.system.consumables);
-	objSystem.inventoryLists = [objSystem.weapons, objSystem.consumables];
 	
 	objSystem.playerStats = {
 		name: json.playerStats.name,
-		hp: json.playerStats.hp,
-		maxHP: json.playerStats.maxHP,
-		mp: json.playerStats.mp,
-		maxMP: json.playerStats.maxMP,
+		hp: real(json.playerStats.hp),
+		maxHP: real(json.playerStats.maxHP),
+		mp: real(json.playerStats.mp),
+		maxMP: real(json.playerStats.maxMP)
 	};
 	
 	objPlayer.x = json.player.x;
@@ -48,12 +49,13 @@ function sys_game_load_json(){
 	for (var i=0;i<length;i++) {
 		var enemy = json.enemies[i];
 		var ins = instance_create_layer(enemy.x, enemy.y, "Instances", enemy.object);
+		ins.active = enemy.active;
 		ins.actor = {
 			name: enemy.name,
-			hp: enemy.hp,
-			maxHP: enemy.maxHP,
-			mp: enemy.mp,
-			maxMP: enemy.maxMP,
+			hp: real(enemy.hp),
+			maxHP: real(enemy.maxHP),
+			mp: real(enemy.mp),
+			maxMP: real(enemy.maxMP)
 		};
 	}
 	

@@ -2,6 +2,8 @@ function sys_game_save_json(){
 	var file = file_text_open_write("champions.json");
 	
 	var data = {
+		currentTurn: objCurrentTurn.currentTurn,
+		
 		system: {
 			weapons: array_from_list(objSystem.weapons),
 			weapon: objSystem.weapon,
@@ -59,6 +61,7 @@ function sys_game_save_json(){
 			x: ins.x,
 			y: ins.y,
 			object: ins.object_index,
+			active: ins.active,
 			name: ins.actor.name,
 			hp: ins.actor.hp,
 			maxHP: ins.actor.maxHP,
@@ -71,5 +74,5 @@ function sys_game_save_json(){
 	
 	file_text_close(file);
 	
-	sys_set_action_text(loc("game.saved"), ACTION_TEXT_SHORT);
+	// sys_set_action_text(loc("game.saved"), ACTION_TEXT_SHORT);
 }
