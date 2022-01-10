@@ -8,6 +8,18 @@ function sys_game_load_json(){
 	var json = json_parse(file_text_read_string(file));
 	file_text_close(file);
 	
+	objSystem.weapons = list_from_array(json.system.weapons);
+	objSystem.weapon = json.system.weapon;
+	objSystem.consumables = list_from_array(json.system.consumables);
+	
+	objSystem.playerStats = {
+		name: json.playerStats.name,
+		hp: json.playerStats.hp,
+		maxHP: json.playerStats.maxHP,
+		mp: json.playerStats.mp,
+		maxMP: json.playerStats.maxMP,
+	};
+	
 	objPlayer.x = json.player.x;
 	objPlayer.y = json.player.y;
 	objPlayer.targetX = json.player.targetX;

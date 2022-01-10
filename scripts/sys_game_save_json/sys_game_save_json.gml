@@ -2,6 +2,12 @@ function sys_game_save_json(){
 	var file = file_text_open_write("champions.json");
 	
 	var data = {
+		system: {
+			weapons: array_from_list(objSystem.weapons),
+			weapon: objSystem.weapon,
+			consumables: array_from_list(objSystem.consumables)
+		},
+		
 		player: {
 			x: objPlayer.x,
 			y: objPlayer.y,
@@ -9,6 +15,14 @@ function sys_game_save_json(){
 			targetY: objPlayer.targetY,
 			state: objPlayer.state,
 			acted: objPlayer.acted
+		},
+		
+		playerStats: {
+			name: objSystem.playerStats.name,
+			hp: objSystem.playerStats.hp,
+			maxHP: objSystem.playerStats.maxHP,
+			mp: objSystem.playerStats.mp,
+			maxMP: objSystem.playerStats.maxMP
 		},
 		
 		level: {
