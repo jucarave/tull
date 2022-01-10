@@ -54,6 +54,16 @@ for (var i=0;i<array_length(enemies);i++) {
 	instance_create_layer(e[0] * GRID_WIDTH, e[1] * GRID_HEIGHT, "Instances", objSkeleton);
 }
 
+var items = [
+	[144, 288, objHPPotion],
+	[144, 312, objShortSword]
+];
+
+for (var i=0;i<array_length(items);i++) {
+	var item = items[i];
+	instance_create_layer(item[0], item[1], "Items", item[2]);
+}
+
 viewMap = array_create(height * width, 0);
 level_update_light();
 
