@@ -15,6 +15,8 @@ function player_update_inventory(){
 		objSystem.inventoryCursor = clamp(objSystem.inventoryCursor + hor, -1, ds_list_size(list) - 1);
 		if (objSystem.inventoryCursor != -1) {
 			sys_set_action_text(loc(list[| objSystem.inventoryCursor].name + ".description"));
+		} else {
+			sys_set_action_text("");
 		}
 	} else if (keyboard_check_pressed(KEY_INVENTORY)) {
 		state = STATES.IDLE;
@@ -33,7 +35,6 @@ function player_update_inventory(){
 		}
 		
 		state = STATES.IDLE;
-		sys_set_action_text("");
 		inventory_reset();
 	}
 }
