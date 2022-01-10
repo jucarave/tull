@@ -11,6 +11,7 @@ function sys_game_load_json(){
 	objSystem.weapons = list_from_array(json.system.weapons);
 	objSystem.weapon = json.system.weapon;
 	objSystem.consumables = list_from_array(json.system.consumables);
+	objSystem.inventoryLists = [objSystem.weapons, objSystem.consumables];
 	
 	objSystem.playerStats = {
 		name: json.playerStats.name,
@@ -34,6 +35,27 @@ function sys_game_load_json(){
 	level.width = json.level.width;
 	level.height = json.level.height;
 	with (level) { level_parse_solid_map(); }
+	
+	while (instance_exists(objItem)) { instance_destroy(objItem); }
+	var length = array_length(json.items);
+	for (var i=0;i<length;i++) {
+		var item = json.items[i];
+		instance_create_layer(item.x, item.y, "Items", item.object);
+	}
+	
+	while (instance_exists(objMonster)) { instance_destroy(objMonster); }
+	length = array_length(json.enemies);
+	for (var i=0;i<length;i++) {
+		var enemy = json.enemies[i];
+		var ins = instance_create_layer(enemy.x, enemy.y, "Instances", enemy.object);
+		ins.actor = {
+			name: enemy.name,
+			hp: enemy.hp,
+			maxHP: enemy.maxHP,
+			mp: enemy.mp,
+			maxMP: enemy.maxMP,
+		};
+	}
 	
 	level_update_light();
 }

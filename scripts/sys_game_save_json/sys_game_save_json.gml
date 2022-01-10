@@ -31,8 +31,41 @@ function sys_game_save_json(){
 			level: objLevel.level,
 			width: objLevel.width,
 			height: objLevel.height
-		}
+		},
+		
+		items: [],
+		
+		enemies: []
 	};
+	
+	var itemsLength = 0;
+	var length = instance_number(objItem);
+	for (var i=0;i<length;i++) {
+		var item = instance_find(objItem, i);
+		
+		data.items[itemsLength++] = {
+			object: item.object_index,
+			x: item.x,
+			y: item.y
+		};
+	}
+	
+	var enemiesLength = 0;
+	length = instance_number(objMonster);
+	for (var i=0;i<length;i++) {
+		var ins = instance_find(objMonster, i);
+		
+		data.enemies[enemiesLength++] = {
+			x: ins.x,
+			y: ins.y,
+			object: ins.object_index,
+			name: ins.actor.name,
+			hp: ins.actor.hp,
+			maxHP: ins.actor.maxHP,
+			mp: ins.actor.mp,
+			maxMP: ins.actor.maxMP
+		};
+	}
 	
 	file_text_write_string(file, json_stringify(data));
 	
