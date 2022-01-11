@@ -6,6 +6,7 @@ function lan_en(){
 	global.LANG[? "lang"] = "EN";
 	
 	global.LANG[? "attack.selectDir"] = "Select a direction to attack.";
+	global.LANG[? "attack.selectTarget"] = "Select a target to attack.";
 	
 	global.LANG[? "item.weaponSheathed"] = "Weapon Sheathed.";
 	

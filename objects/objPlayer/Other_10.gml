@@ -14,6 +14,10 @@ switch (state) {
 		player_attack_direction();
 		break;
 		
+	case STATES.SELECT_TARGET:
+		player_attack_target();
+		break;
+		
 	case STATES.MOVING:
 		actor_update_movement();
 		if (acted) level_update_light();

@@ -1,6 +1,6 @@
 function player_attack_direction(){
-	var hor = keyboard_check(vk_right) - keyboard_check(vk_left);
-	var ver = (hor != 0) ? 0 : keyboard_check(vk_down) - keyboard_check(vk_up);
+	var hor = keyboard_check(KEY_RIGHT) - keyboard_check(KEY_LEFT);
+	var ver = (hor != 0) ? 0 : keyboard_check(KEY_DOWN) - keyboard_check(KEY_UP);
 	
 	if (hor != 0 || ver != 0) {
 		var xTo = x + hor * GRID_WIDTH;
