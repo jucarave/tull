@@ -29,7 +29,11 @@ function player_update_inventory(){
 				break;
 				
 			case 1: // Consumables
-				inventory_use_item(objSystem.playerStats);
+				if (objSystem.inventoryCursor != -1) {
+					var item = objSystem.consumables[| objSystem.inventoryCursor];
+					sys_set_action_text(loc(item.name + ".used"), ACTION_TEXT_SHORT);
+					inventory_use_item(objSystem.playerStats);
+				}
 				
 				break;
 		}

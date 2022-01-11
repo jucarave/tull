@@ -1,8 +1,9 @@
-function item_create(sprite, type, name, objectId) {
+function item_create(sprite, type, name, effect, effectParams) {
 	return {
 		sprite: sprite,
 		type: type,
 		name: name,
-		objectId: objectId
+		effect: effect,
+		effectParams: effectParams
 	};
 }
