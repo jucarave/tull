@@ -56,7 +56,8 @@ for (var i=0;i<array_length(enemies);i++) {
 
 var items = [
 	[144, 288, objHPPotion],
-	[144, 312, objShortSword]
+	[144, 312, objShortSword],
+	[144, 336, objBow],
 ];
 
 for (var i=0;i<array_length(items);i++) {

@@ -13,6 +13,10 @@ function lan_es(){
 	global.LANG[? "shortSword.equipped"] = "Espada corta equipada.";
 	global.LANG[? "shortSword.description"] = "Espada corta, ataca por " + string(DATA_SHORT_SWORD_DMG) + " puntos de daño cortante.";
 	
+	global.LANG[? "bow.picked"] = "Arco largo recogido.";
+	global.LANG[? "bow.equipped"] = "Arco largo equipado.";
+	global.LANG[? "bow.description"] = "Arco largo, ataca por " + string(DATA_BOW_DMG) + " puntos de daño penetrante.";
+	
 	global.LANG[? "hpPotion.picked"] = "Poción de salud recogida.";
 	global.LANG[? "hpPotion.used"] = "Poción de salud consumida.";
 	global.LANG[? "hpPotion.description"] = "Restaura " + string(DATA_HP_POTION_HEALS) + " puntos de salud.";

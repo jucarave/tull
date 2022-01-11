@@ -23,9 +23,11 @@
 
 #macro ATTACK_TYPE_PUNCH 0
 #macro ATTACK_TYPE_SLASH 1
+#macro ATTACK_TYPE_BOW 2
 
 #macro xgrid floor(x / GRID_WIDTH)
 #macro ygrid floor(y / GRID_HEIGHT)
 
 #macro DATA_SHORT_SWORD_DMG 3
+#macro DATA_BOW_DMG 2
 #macro DATA_HP_POTION_HEALS 10
