@@ -1,4 +1,10 @@
 function player_attack_direction(){
+	if (keyboard_check_pressed(KEY_CANCEL)) {
+		state = STATES.IDLE;
+		sys_set_action_text("");
+		exit;
+	}
+	
 	var hor = keyboard_check(KEY_RIGHT) - keyboard_check(KEY_LEFT);
 	var ver = (hor != 0) ? 0 : keyboard_check(KEY_DOWN) - keyboard_check(KEY_UP);
 	

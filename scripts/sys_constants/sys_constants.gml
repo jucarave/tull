@@ -11,8 +11,9 @@
 #macro KEY_DOWN vk_down
 #macro KEY_ATTACK ord("A")
 #macro KEY_INTERACT vk_enter
-#macro KEY_INVENTORY ord("Q")
+#macro KEY_INVENTORY ord("W")
 #macro KEY_PASS vk_space
+#macro KEY_CANCEL ord("Q")
 
 #macro ITEM_TYPE_WEAPON 0
 #macro ITEM_TYPE_CONSUMABLE 1

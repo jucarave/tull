@@ -11,4 +11,11 @@ function player_attack_target(){
 		
 		exit;
 	}
+	
+	if (keyboard_check_pressed(KEY_CANCEL)) {
+		visibleTargets = noone;
+		state = STATES.IDLE;
+		sys_set_action_text("");
+		exit;
+	}
 }
