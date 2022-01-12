@@ -18,4 +18,11 @@ function player_attack_target(){
 		sys_set_action_text("");
 		exit;
 	}
+	
+	if (keyboard_check_pressed(KEY_INTERACT)) {
+		var target = visibleTargets[visibleTargetSelected];
+		attack_bow(id, target, player_get_weapon(), target.x, target.y);
+		visibleTargets = noone;
+		state = STATES.NONE;
+	}
 }

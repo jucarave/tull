@@ -11,4 +11,11 @@ function player_update_visible_targets(){
 			visibleTargets[count++] = ins;
 		}
 	}
+	
+	if (count > 0) {
+		return true;
+	} else {
+		visibleTargets = noone;
+		return false;
+	}
 }

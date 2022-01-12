@@ -1,0 +1,1 @@
+with (objFXDirector) { fx_next_step(); }
