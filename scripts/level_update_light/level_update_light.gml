@@ -33,7 +33,7 @@ function level_update_light() {
 	// Update Light
 	var px = floor(objPlayer.x / GRID_WIDTH);
 	var py = floor(objPlayer.y / GRID_HEIGHT);
-	var lineDistance = 5;
+	var lineDistance = round(LIGHT_DISTANCE * 1.5);
 	
 	var _y = -lineDistance;
 	var _x = -lineDistance;
