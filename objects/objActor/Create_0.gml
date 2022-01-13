@@ -7,3 +7,6 @@ targetX = x;
 targetY = y;
 
 spd = 2;
+
+maxTurns = 1;
+turns = 1;

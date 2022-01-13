@@ -1,3 +1,7 @@
 function actor_end_turn(){
-	acted = true;
+	turns -= 1;
+	if (turns == 0) {
+		acted = true;
+		turns = maxTurns;
+	}
 }
