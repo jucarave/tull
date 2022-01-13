@@ -27,6 +27,9 @@ function lan_es(){
 	global.LANG[? "skeleton.dies"] = "El esqueleto muere.";
 	global.LANG[? "skeleton.activate"] = "Ves a un esqueleto.";
 	
+	global.LANG[? "zombieDog.dies"] = "El perro zombie muere.";
+	global.LANG[? "zombieDog.activate"] = "Ves a un perro zombie.";
+	
 	global.LANG[? "game.saved"] = "Juego guardado.";
 	global.LANG[? "game.loaded"] = "Juego cargado.";
 	global.LANG[? "game.notFound"] = "Juego guardado no encontrado.";

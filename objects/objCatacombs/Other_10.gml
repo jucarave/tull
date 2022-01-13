@@ -39,19 +39,19 @@ level = [
 ];
 
 var enemies = [
-	[4, 2],
-	[4, 7],
-	[17, 11],
-	[15, 23],
-	[19, 23],
-	[10, 24],
-	[3, 23],
-	[10, 24]
+	[4, 2, objSkeleton],
+	[4, 7, objZombieDog],
+	[17, 11, objSkeleton],
+	[15, 23, objSkeleton],
+	[19, 23, objSkeleton],
+	[10, 24, objSkeleton],
+	[3, 23, objSkeleton],
+	[10, 24, objSkeleton]
 ];
 
 for (var i=0;i<array_length(enemies);i++) {
 	var e = enemies[i];
-	instance_create_layer(e[0] * GRID_WIDTH, e[1] * GRID_HEIGHT, "Instances", objSkeleton);
+	instance_create_layer(e[0] * GRID_WIDTH, e[1] * GRID_HEIGHT, "Instances", e[2]);
 }
 
 var items = [

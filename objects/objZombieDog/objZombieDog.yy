@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprSkeleton",
-    "path": "sprites/sprSkeleton/sprSkeleton.yy",
+    "name": "sprZombieDog",
+    "path": "sprites/sprZombieDog/sprZombieDog.yy",
   },
   "solid": false,
   "visible": true,
@@ -34,7 +34,7 @@
     "path": "folders/Objects/Monsters.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objSkeleton",
+  "name": "objZombieDog",
   "tags": [],
   "resourceType": "GMObject",
 }
