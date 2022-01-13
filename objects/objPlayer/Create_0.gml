@@ -13,6 +13,7 @@ state = STATES.IDLE;
 
 visibleTargets = noone;
 visibleTargetSelected = 0;
+lastTargeted = noone;
 
 camera = view_camera[0];
 camW = camera_get_view_width(camera) / 2;

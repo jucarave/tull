@@ -8,7 +8,13 @@ function player_update_visible_targets(){
 		var ins = instance_find(objMonster, i);
 		
 		if (level_is_visible(floor(ins.x / GRID_WIDTH), floor(ins.y / GRID_HEIGHT))) {
-			visibleTargets[count++] = ins;
+			visibleTargets[count] = ins;
+
+			if (lastTargeted != noone && ins == lastTargeted) {
+				visibleTargetSelected = count;
+			}
+			
+			count += 1;
 		}
 	}
 	
