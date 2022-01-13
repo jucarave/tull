@@ -24,7 +24,8 @@
 
 #macro ATTACK_TYPE_PUNCH 0
 #macro ATTACK_TYPE_SLASH 1
-#macro ATTACK_TYPE_BOW 2
+#macro ATTACK_TYPE_BITE 2
+#macro ATTACK_TYPE_BOW 3
 
 #macro xgrid floor(x / GRID_WIDTH)
 #macro ygrid floor(y / GRID_HEIGHT)

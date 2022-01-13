@@ -6,8 +6,9 @@ display_set_gui_size(camW, camH);
 
 instance_create_layer(0, 0, "Instances", objCurrentTurn);
 
-punch = item_create_weapon(noone, "punch", 1, ATTACK_TYPE_PUNCH);
-slash2 = item_create_weapon(noone, "slash 2", 2, ATTACK_TYPE_SLASH);
+punch = item_create_weapon(noone, "punch", 1, ATTACK_TYPE_PUNCH, false);
+slash2 = item_create_weapon(noone, "slash 2", 2, ATTACK_TYPE_SLASH, false);
+bite2 = item_create_weapon(noone, "bite 2", 2, ATTACK_TYPE_BITE, false);
 
 global.LANG = noone;
 global.DMG_FONT = font_add_sprite_ext(sprDamageFont, "0123456789", true, 0);
