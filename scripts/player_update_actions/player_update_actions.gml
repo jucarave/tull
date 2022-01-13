@@ -8,9 +8,9 @@ function player_update_actions(){
 			inventory_add_item(item.item);
 			sys_set_action_text(loc(item.item.name + ".picked"), ACTION_TEXT_SHORT);
 			instance_destroy(item);
+			
+			actor_end_turn();
 		}
-		
-		actor_end_turn();
 	}else if (keyboard_check_pressed(KEY_INVENTORY)) {
 		state = STATES.INVENTORY;
 		prevWeapon = objSystem.weapon;
