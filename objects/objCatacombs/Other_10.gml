@@ -1,6 +1,6 @@
 /// @description Random generation
 
-width = 32;
+/*width = 32;
 height = 32;
 
 level = [
@@ -63,7 +63,9 @@ var items = [
 for (var i=0;i<array_length(items);i++) {
 	var item = items[i];
 	instance_create_layer(item[0], item[1], "Items", item[2]);
-}
+}*/
+
+event_user(1);
 
 viewMap = array_create(height * width, 0);
 level_update_light();

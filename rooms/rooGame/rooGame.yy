@@ -20,7 +20,6 @@
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":24,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"UI","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":24,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Damage","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":192.0,"y":216.0,"resourceVersion":"1.0","name":"inst_3A8795E5_1","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"objSystem","path":"objects/objSystem/objSystem.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_1099B83A_1","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"objFXDirector","path":"objects/objFXDirector/objFXDirector.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":16.0,"y":0.0,"resourceVersion":"1.0","name":"inst_4EF4DB0D_1","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":24,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
@@ -34,7 +33,6 @@
   "instanceCreationOrder": [
     {"name":"inst_1099B83A_1","path":"rooms/rooGame/rooGame.yy",},
     {"name":"inst_32A0DA02_1","path":"rooms/rooGame/rooGame.yy",},
-    {"name":"inst_3A8795E5_1","path":"rooms/rooGame/rooGame.yy",},
     {"name":"inst_775D5539_1","path":"rooms/rooGame/rooGame.yy",},
     {"name":"inst_4EF4DB0D_1","path":"rooms/rooGame/rooGame.yy",},
     {"name":"inst_5E35A1E5_1","path":"rooms/rooGame/rooGame.yy",},
