@@ -81,6 +81,7 @@
     {"id":{"name":"player_attack_target","path":"scripts/player_attack_target/player_attack_target.yy",},"order":7,},
     {"id":{"name":"level_is_visible","path":"scripts/level_is_visible/level_is_visible.yy",},"order":2,},
     {"id":{"name":"objFXDirector","path":"objects/objFXDirector/objFXDirector.yy",},"order":2,},
+    {"id":{"name":"map_gen_print_map","path":"scripts/map_gen_print_map/map_gen_print_map.yy",},"order":0,},
     {"id":{"name":"objHPPotion","path":"objects/objHPPotion/objHPPotion.yy",},"order":1,},
     {"id":{"name":"sys_remove_from_instances_list","path":"scripts/sys_remove_from_instances_list/sys_remove_from_instances_list.yy",},"order":2,},
     {"id":{"name":"actor_end_turn","path":"scripts/actor_end_turn/actor_end_turn.yy",},"order":0,},
@@ -169,6 +170,7 @@
     {"folderPath":"folders/Objects/Title.yy","order":9,"resourceVersion":"1.0","name":"Title","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/Items/Effects.yy","order":6,"resourceVersion":"1.0","name":"Effects","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Missiles.yy","order":10,"resourceVersion":"1.0","name":"Missiles","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Scripts/MapGeneration.yy","order":12,"resourceVersion":"1.0","name":"MapGeneration","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
