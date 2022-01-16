@@ -2,13 +2,24 @@ var rooms = [];
 var count = 0;
 
 // Initial room
-var ind = irandom(array_length(prefabs));
+var ind = irandom(array_length(prefabs) - 1);
 var prefab = prefabs[ind];
-var r = { ind: ind, x: 0, y: 0, w: prefab.width, h: prefab.height };
+var r = map_gen_create_room(ind, x, y, prefab.width, prefab.height);
 rooms[count++] = r;
 
-// Creating a hallway
-r = { ind: -1, x: 5, y: 2, w: 8, h: 1 }
+// Creating the critical path
+var exitInd = map_gen_room_get_exit(r);
+ind = irandom(array_length(prefabs) - 1);
+prefab = prefabs[ind];
+var roomPosition = map_gen_room_get_exit_position(r, exitInd, prefab);
+var newRoom = map_gen_create_room(ind, roomPosition.x, roomPosition.y, prefab.width, prefab.height);
+r.exits[exitInd] = newRoom;
+
+// Open tile connecting rooms
+var door = map_gen_connect_rooms(r, newRoom, exitInd);
+rooms[count++] = door;
+
+r = newRoom;
 rooms[count++] = r;
 
 // Keeping the rooms inside the boundaries
@@ -29,5 +40,6 @@ map_gen_add_walls(level, width, height);
 // Print generated map
 map_gen_print_map(level, width);
 
-var prefab = prefabs[rooms[0].ind];
-instance_create_layer(prefab.player[0] * GRID_WIDTH, prefab.player[1] + GRID_HEIGHT, "Instances", objPlayer);
+r = rooms[0];
+var prefab = prefabs[r.ind];
+instance_create_layer((prefab.player[0] + r.x) * GRID_WIDTH, (prefab.player[1] + r.y) * GRID_HEIGHT, "Instances", objPlayer);
