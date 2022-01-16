@@ -48,6 +48,7 @@
     {"id":{"name":"actor_receive_attack","path":"scripts/actor_receive_attack/actor_receive_attack.yy",},"order":5,},
     {"id":{"name":"level_update_light","path":"scripts/level_update_light/level_update_light.yy",},"order":1,},
     {"id":{"name":"objUIStats","path":"objects/objUIStats/objUIStats.yy",},"order":2,},
+    {"id":{"name":"map_gen_collides_with_room","path":"scripts/map_gen_collides_with_room/map_gen_collides_with_room.yy",},"order":10,},
     {"id":{"name":"objMissile","path":"objects/objMissile/objMissile.yy",},"order":1,},
     {"id":{"name":"objLevel","path":"objects/objLevel/objLevel.yy",},"order":0,},
     {"id":{"name":"sys_constants","path":"scripts/sys_constants/sys_constants.yy",},"order":0,},
