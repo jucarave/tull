@@ -12,13 +12,13 @@ function map_gen_connect_rooms(roomA, roomB, exitInd){
 	}
 	
 	if (exitInd == 0 || exitInd == 2) {
-		var x1 = max(roomA.x + 1, roomB.x + 1);
-		var x2 = min(roomA.x + roomA.w - 2, roomB.x + roomB.w - 2);
+		var x1 = max(roomA.x, roomB.x);
+		var x2 = min(roomA.x + roomA.w - 1, roomB.x + roomB.w - 1);
 		
 		_x = irandom_range(x1, x2);
 	} else if (exitInd == 1 || exitInd == 3) {
-		var y1 = max(roomA.y + 1, roomB.y + 1);
-		var y2 = min(roomA.y + roomA.h - 2, roomB.y + roomB.h - 2);
+		var y1 = max(roomA.y, roomB.y);
+		var y2 = min(roomA.y + roomA.h - 1, roomB.y + roomB.h - 1);
 		
 		_y = irandom_range(y1, y2);
 	}

@@ -1,26 +1,16 @@
 var rooms = [];
-var count = 0;
 
 // Initial room
 var ind = irandom(array_length(prefabs) - 1);
 var prefab = prefabs[ind];
 var r = map_gen_create_room(ind, x, y, prefab.width, prefab.height);
-rooms[count++] = r;
+rooms[0] = r;
 
 // Creating the critical path
-var exitInd = map_gen_room_get_exit(r);
-ind = irandom(array_length(prefabs) - 1);
-prefab = prefabs[ind];
-var roomPosition = map_gen_room_get_exit_position(r, exitInd, prefab);
-var newRoom = map_gen_create_room(ind, roomPosition.x, roomPosition.y, prefab.width, prefab.height);
-r.exits[exitInd] = newRoom;
-
-// Open tile connecting rooms
-var door = map_gen_connect_rooms(r, newRoom, exitInd);
-rooms[count++] = door;
-
-r = newRoom;
-rooms[count++] = r;
+for (var i=0;i<10;i++) {
+	r = map_gen_add_room(rooms, r);
+	rooms[array_length(rooms)] = r;
+}
 
 // Keeping the rooms inside the boundaries
 var boundaries = map_gen_keep_rooms_in_boundaries(rooms);
