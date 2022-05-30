@@ -115,7 +115,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sprCatacombs","path":"sprites/sprCatacombs/sprCatacombs.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sprCatacombs",
     "tags": [],
     "resourceType": "GMSequence",

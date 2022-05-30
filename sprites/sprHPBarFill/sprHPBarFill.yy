@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sprHPBarFill","path":"sprites/sprHPBarFill/sprHPBarFill.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sprHPBarFill",
     "tags": [],
     "resourceType": "GMSequence",

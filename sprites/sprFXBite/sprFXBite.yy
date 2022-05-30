@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sprFXBite","path":"sprites/sprFXBite/sprFXBite.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sprFXBite",
     "tags": [],
     "resourceType": "GMSequence",

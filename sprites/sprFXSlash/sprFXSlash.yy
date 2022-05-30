@@ -79,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sprFXSlash","path":"sprites/sprFXSlash/sprFXSlash.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sprFXSlash",
     "tags": [],
     "resourceType": "GMSequence",

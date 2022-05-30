@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sprCKnight","path":"sprites/sprCKnight/sprCKnight.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sprCKnight",
     "tags": [],
     "resourceType": "GMSequence",

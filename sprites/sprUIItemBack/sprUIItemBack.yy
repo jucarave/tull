@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sprUIItemBack","path":"sprites/sprUIItemBack/sprUIItemBack.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sprUIItemBack",
     "tags": [],
     "resourceType": "GMSequence",

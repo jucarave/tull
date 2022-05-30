@@ -95,7 +95,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sprDamageFont","path":"sprites/sprDamageFont/sprDamageFont.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sprDamageFont",
     "tags": [],
     "resourceType": "GMSequence",

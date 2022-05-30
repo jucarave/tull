@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sprHPPotion","path":"sprites/sprHPPotion/sprHPPotion.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sprHPPotion",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sprMPBarFill","path":"sprites/sprMPBarFill/sprMPBarFill.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sprMPBarFill",
     "tags": [],
     "resourceType": "GMSequence",

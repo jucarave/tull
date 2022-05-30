@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sprTitleCursor","path":"sprites/sprTitleCursor/sprTitleCursor.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sprTitleCursor",
     "tags": [],
     "resourceType": "GMSequence",

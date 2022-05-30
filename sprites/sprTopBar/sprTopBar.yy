@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sprTopBar","path":"sprites/sprTopBar/sprTopBar.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sprTopBar",
     "tags": [],
     "resourceType": "GMSequence",
