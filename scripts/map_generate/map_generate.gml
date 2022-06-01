@@ -7,7 +7,7 @@ function map_generate(){
 	map_gen_add_walls(level, width, height);
 	map_gen_print_map(level, width);
 
-	r = rooms[0];
-	var prefab = prefabs[r.ind];
+	var r = rooms[0];
+	var prefab = prefabs[r.prefabIndex];
 	instance_create_layer((prefab.player[0] + r.x) * GRID_WIDTH, (prefab.player[1] + r.y) * GRID_HEIGHT, "Instances", objPlayer);
 }

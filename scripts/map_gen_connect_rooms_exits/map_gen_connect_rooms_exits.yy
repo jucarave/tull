@@ -6,7 +6,7 @@
     "path": "folders/Scripts/MapGeneration.yy",
   },
   "resourceVersion": "1.0",
-  "name": "map_gen_room_get_exit",
+  "name": "map_gen_connect_rooms_exits",
   "tags": [],
   "resourceType": "GMScript",
 }

@@ -1,6 +1,6 @@
-function map_gen_create_room(ind, _x, _y, w, h){
+function map_gen_create_room(prefabIndex, _x, _y, w, h){
 	return {
-		ind: ind,
+		prefabIndex: prefabIndex,
 		x: _x,
 		y: _y,
 		w: w,

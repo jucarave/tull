@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "MapGeneration",
-    "path": "folders/Scripts/MapGeneration.yy",
+    "name": "Utils",
+    "path": "folders/Scripts/Utils.yy",
   },
   "resourceVersion": "1.0",
-  "name": "map_gen_room_get_exit_position",
+  "name": "vec2",
   "tags": [],
   "resourceType": "GMScript",
 }

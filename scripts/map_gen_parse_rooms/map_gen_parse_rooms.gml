@@ -4,8 +4,8 @@ function map_gen_parse_rooms(rooms, level, levelWidth){
 		var r = rooms[i];
 		var pmap;
 	
-		if (r.ind != -1) {
-			var prefab = prefabs[r.ind];
+		if (r.prefabIndex != -1) {
+			var prefab = prefabs[r.prefabIndex];
 			pmap = prefab.map;
 		} else {
 			pmap = array_create(r.w * r.h, 1);

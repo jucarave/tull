@@ -22,8 +22,7 @@ function sys_game_load_json(){
 		maxMP: real(json.playerStats.maxMP)
 	};
 	
-	objPlayer.x = json.player.x;
-	objPlayer.y = json.player.y;
+	instance_create_layer(json.player.x, json.player.y, "Instances", objPlayer);
 	objPlayer.targetX = json.player.targetX;
 	objPlayer.targetY = json.player.targetY;
 	objPlayer.state = json.player.state;
